@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alex | Instagram Profile</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">Instagram</div>
+
+        <div class="search">
+            <input type="text" placeholder="Search">
+        </div>
+
+        <div class="nav-icons">
+            <span>⌂</span>
+            <span>♡</span>
+            <span>✉</span>
+            <img src="https://i.pravatar.cc/100?img=12" alt="profile">
+        </div>
+    </nav>
+
+
+    <!-- PROFILE -->
+    <main class="container">
+
+        <section class="profile">
+
+            <div class="profile-image">
+                <img src="https://i.pravatar.cc/300?img=12" alt="Profile">
+            </div>
+
+            <div class="profile-info">
+
+                <div class="username-row">
+                    <h1>alex.dev</h1>
+                    <button class="edit-btn">Edit Profile</button>
+                    <button class="settings">⚙</button>
+                </div>
+
+                <div class="stats">
+                    <span><b>48</b> posts</span>
+                    <span><b>12.5K</b> followers</span>
+                    <span><b>386</b> following</span>
+                </div>
+
+                <div class="bio">
+                    <strong>Alex Johnson</strong>
+                    <p>
+                        💻 Developer & Designer<br>
+                        🚀 Building cool things with code<br>
+                        📍 Bangalore, India<br>
+                        🔗 www.alexdev.com
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- HIGHLIGHTS -->
+        <section class="highlights">
+
+            <div class="highlight">
+                <div class="highlight-img">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=200" alt="">
+                </div>
+                <p>Coding</p>
+            </div>
+
+            <div class="highlight">
+                <div class="highlight-img">
+                    <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=200" alt="">
+                </div>
+                <p>Work</p>
+            </div>
+
+            <div class="highlight">
+                <div class="highlight-img">
+                    <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?w=200" alt="">
+                </div>
+                <p>Travel</p>
+            </div>
+
+            <div class="highlight">
+                <div class="highlight-img">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=200" alt="">
+                </div>
+                <p>Projects</p>
+            </div>
+
+            <div class="highlight">
+                <div class="highlight-img">
+                    <span>+</span>
+                </div>
+                <p>New</p>
+            </div>
+
+        </section>
+
+
+        <!-- TABS -->
+        <div class="tabs">
+
+            <button class="tab active" data-tab="posts">
+                ▦ POSTS
+            </button>
+
+            <button class="tab" data-tab="saved">
+                ♡ SAVED
+            </button>
+
+            <button class="tab" data-tab="tagged">
+                ♙ TAGGED
+            </button>
+
+        </div>
+
+
+        <!-- POSTS -->
+        <section class="posts" id="posts">
+
+            <div class="post">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800" alt="">
+                <div class="overlay">♡ 1,240 &nbsp; 💬 84</div>
+            </div>
+
+            <div class="post">
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800" alt="">
+                <div class="overlay">♡ 956 &nbsp; 💬 42</div>
+            </div>
+
+            <div class="post">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800" alt="">
+                <div class="overlay">♡ 2,341 &nbsp; 💬 105</div>
+            </div>
+
+            <div class="post">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800" alt="">
+                <div class="overlay">♡ 1,832 &nbsp; 💬 67</div>
+            </div>
+
+            <div class="post">
+                <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?w=800" alt="">
+                <div class="overlay">♡ 734 &nbsp; 💬 31</div>
+            </div>
+
+            <div class="post">
+                <img src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?w=800" alt="">
+                <div class="overlay">♡ 1,562 &nbsp; 💬 52</div>
+            </div>
+
+            <div class="post">
+                <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800" alt="">
+                <div class="overlay">♡ 2,010 &nbsp; 💬 91</div>
+            </div>
+
+            <div class="post">
+                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800" alt="">
+                <div class="overlay">♡ 987 &nbsp; 💬 38</div>
+            </div>
+
+            <div class="post">
+                <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800" alt="">
+                <div class="overlay">♡ 1,764 &nbsp; 💬 74</div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- IMAGE MODAL -->
+    <div class="modal" id="modal">
+
+        <button class="close">&times;</button>
+
+        <img id="modalImage" src="" alt="Post">
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Alex Dev · Made with HTML, CSS & JavaScript</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
